@@ -14,7 +14,7 @@ public class Post {
 
     private String title, anons, full_text;
 
-    private int view;
+    private int views;
 
     public Long getId() {
         return id;
@@ -48,12 +48,12 @@ public class Post {
         this.full_text = full_text;
     }
 
-    public int getView() {
-        return view;
+    public int getViews() {
+        return views;
     }
 
-    public void setView(int view) {
-        this.view = view;
+    public void setViews(int view) {
+        this.views = view;
     }
 
     public Post(String title, String anons, String full_text) {
